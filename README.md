@@ -27,12 +27,12 @@ The task is episodic, and in order to solve the environment, your agent must get
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
     - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
     - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
-    
+
     (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
+2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file.
 
 ### Instructions
 
@@ -53,3 +53,22 @@ You need only select the environment that matches your operating system:
 Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip (or decompress) the file.  Next, open `Navigation_Pixels.ipynb` and follow the instructions to learn how to use the Python API to control the agent.
 
 (_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
+
+
+### Training table on Udacity workspace:
+
+Episode 100	Average Score: 0.54
+Episode 200	Average Score: 2.72
+Episode 300	Average Score: 6.50
+Episode 400	Average Score: 10.16
+Episode 500	Average Score: 14.01
+Episode 600	Average Score: 14.69
+Episode 700	Average Score: 15.79
+Episode 792	Average Score: 16.33
+Environment solved in 692 episodes!	Average Score: 16.33
+Device = cuda:0; Time to solve: 1071.719 seconds
+
+[//]: # (Image References)
+
+[image2]: https://raw.githubusercontent.com/jcarcamo/p1_banana_drl/master/index.png "My Plot"
+https://raw.githubusercontent.com/jcarcamo/p1_banana_drl/master/index.png
