@@ -1,3 +1,5 @@
+# Most of this code was provided in the DRL course, I modified the network structure to experiment with the solution
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
