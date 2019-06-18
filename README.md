@@ -1,6 +1,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+[image2]: https://raw.githubusercontent.com/jcarcamo/p1_banana_drl/master/index.png "My Plot"
 
 # Project 1: Navigation
 
@@ -58,17 +59,23 @@ Then, place the file in the `p1_navigation/` folder in the DRLND GitHub reposito
 ### Training table on Udacity workspace:
 
 Episode 100	Average Score: 0.54
+
 Episode 200	Average Score: 2.72
+
 Episode 300	Average Score: 6.50
+
 Episode 400	Average Score: 10.16
+
 Episode 500	Average Score: 14.01
+
 Episode 600	Average Score: 14.69
+
 Episode 700	Average Score: 15.79
+
 Episode 792	Average Score: 16.33
+
 Environment solved in 692 episodes!	Average Score: 16.33
+
 Device = cuda:0; Time to solve: 1071.719 seconds
 
-[//]: # (Image References)
-
-[image2]: https://raw.githubusercontent.com/jcarcamo/p1_banana_drl/master/index.png "My Plot"
-https://raw.githubusercontent.com/jcarcamo/p1_banana_drl/master/index.png
+![My Plot][image2]
